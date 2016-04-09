@@ -37,7 +37,7 @@
 
 @font-face {
     font-family: "oneConstant";
-    src: 'black-is-not-a-color.regular.ttf', format("truetype");
+    src: url('black-is-not-a-color.regular.ttf') format("truetype");
 }
 p.customfont { 
     font-family: "oneConstant", Arial;
