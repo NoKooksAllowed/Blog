@@ -49,7 +49,9 @@
     font-family: "MankSans";
     src: url('MankSans.ttf') format("truetype");
 }
-
+.manksans {
+  font-family: 'MankSans', Arial;
+}
 .customfont { 
     font-family: "oneConstant", Arial;
 }
