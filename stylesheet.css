@@ -35,6 +35,7 @@
     }
     
 .test {
+ color: red;
  background-color: blue;
  height: 200vh;
  width: 10px;
