@@ -45,6 +45,11 @@
     font-family: "oneConstant";
     src: url('hapole_marker.ttf') format("truetype");
 }
+@font-face {
+    font-family: "MankSans";
+    src: url('MankSans.ttf') format("truetype");
+}
+
 .customfont { 
     font-family: "oneConstant", Arial;
 }
