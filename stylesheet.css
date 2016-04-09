@@ -46,11 +46,11 @@
     src: url('hapole_marker.ttf') format("truetype");
 }
 @font-face {
-    font-family: "MankSans";
-    src: url('MankSans.ttf') format("truetype");
+    font-family: 'hapole';
+    src: url('hapole_marker.ttf') format("truetype");
 }
 .manksans {
-  font-family: 'MankSans', Arial;
+  font-family: 'hapole', Arial;
 }
 .customfont { 
     font-family: "oneConstant", Arial;
