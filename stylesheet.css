@@ -37,7 +37,7 @@
 
 @font-face {
     font-family: "oneConstant";
-    src: url('One Constant.ttf') format("truetype");
+    src: 'One Constant.ttf' format("truetype");
 }
 p.customfont { 
     font-family: "oneConstant", Verdana, Tahoma;
