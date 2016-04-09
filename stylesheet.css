@@ -49,3 +49,7 @@
 .customfont { 
     font-family: "oneConstant", Arial;
 }
+
+.well {
+  color: blue;
+}
