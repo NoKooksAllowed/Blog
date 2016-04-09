@@ -40,7 +40,7 @@
     font-family: "oneConstant";
     src: url('hapole_marker.ttf') format("truetype");
 }
-p.customfont { 
+.customfont { 
     font-family: "oneConstant", Arial;
     font-size: 50px;
 }
