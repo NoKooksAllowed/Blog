@@ -40,5 +40,5 @@
     src: url(http://www.urbanfonts.com/fonts/One+Constant.htm) format("truetype");
 }
 p.customfont { 
-    font-family: "oneConstant";
+    font-family: "oneConstant", Arial;
 }
