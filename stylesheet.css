@@ -37,7 +37,7 @@
 
 @font-face {
     font-family: "oneConstant";
-    src: 'One Constant.ttf' format("truetype");
+    src: url(http://www.urbanfonts.com/fonts/One+Constant.htm) format("truetype");
 }
 p.customfont { 
     font-family: "oneConstant", Verdana, Tahoma;
