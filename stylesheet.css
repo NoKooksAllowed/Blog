@@ -5,7 +5,7 @@
 
 #wrapper {
   padding-left: 250px;
-  transition: all 0.4s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 #sidebar-wrapper {
@@ -35,7 +35,7 @@
   padding: 15px;
 }
 
-@media (max-width:1000px) {
+@media (max-width:767px) {
 
     #wrapper {
       padding-left: 0;
