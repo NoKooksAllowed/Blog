@@ -49,7 +49,7 @@
     font-family: 'secretcode';
     src: url('SECRCODE.ttf') format("truetype");
 }
-.manksans {
+.secretcode {
   font-family: 'secretcode', Arial;
 }
 .customfont { 
