@@ -46,11 +46,11 @@
     src: url('hapole_marker.ttf') format("truetype");
 }
 @font-face {
-    font-family: 'hapole';
-    src: url('hapole_marker.ttf') format("truetype");
+    font-family: 'secretcode';
+    src: url('SECRCODE.ttf') format("truetype");
 }
 .manksans {
-  font-family: 'hapole', Arial;
+  font-family: 'secretcode', Arial;
 }
 .customfont { 
     font-family: "oneConstant", Arial;
