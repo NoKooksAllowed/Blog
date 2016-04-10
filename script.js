@@ -1,5 +1,5 @@
 document.getElementsByClassName("test").innerHTML='<object type="text/html" data="home.html" ></object>';
-
+console.log('change')
 
 $(document).ready(function(){
   
