@@ -47,7 +47,7 @@
 }
 @font-face {
     font-family: 'secrcode';
-    src: url('secrcode.ttf') format("truetype");
+    src: url('TraditionSansXLight (1).ttf') format("truetype");
 }
 .secretcode {
   font-family: 'secrcode', Arial;
