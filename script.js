@@ -1,7 +1,9 @@
-document.getElementsByClassName("test").innerHTML='<object type="text/html" data="home.html" ></object>';
-console.log('change')
-
 $(document).ready(function(){
+  var status = 'newpage';
+  
+  if ( status === newpage ) {
+    $('.test').load('home.html');
+  }
   
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
