@@ -5,7 +5,7 @@ $(document).ready(function(){
       }, function() {
     $(this).css('background-color', 'rgb(100,100,255)')
       }
-  })
+  });
   
   $('.contactLink').click(function(e) {
     $('.test').hide(1000);
