@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $('.contactLink').click(function() {
     $('.test').load('contact.html', function(){
-      $('.test').fadeIn(3000);
+      $('.test').fadeIn('slow');
       console.log('change')
     });
   });
