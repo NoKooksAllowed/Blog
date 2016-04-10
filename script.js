@@ -5,4 +5,11 @@ $(document).ready(function(){
     e.stopImmediatePropagation();
     e.preventDefault();
   });
+  
+  $('.sidebar-content').hover(function(){
+    $(this).css('background-color', 'rgb(150,150,255)') {
+      }, function() {
+    $(this).css('background-color', 'rgb(100,100,255)')
+      }
+  })
 });
