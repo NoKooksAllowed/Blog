@@ -1,5 +1,8 @@
+function load_home(){
+  document.getElementsByClassName("test").innerHTML='<object type="text/html" data="home.html" ></object>';
+}
+
 $(document).ready(function(){
-  $('.test').load('home.html');
   
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
@@ -20,5 +23,5 @@ $(document).ready(function(){
     e.stopImmediatePropagation();
     e.preventDefault();
   });
-
+  
 });
