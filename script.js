@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.customfont').click(function() {
-    $('.sidebar-content').load('contact.html');
+  $('.sidebar-content').click(function() {
+    $('.text').load('contact.html');
   });
 });
