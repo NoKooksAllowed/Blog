@@ -12,5 +12,12 @@ $(document).ready(function(){
     e.stopImmediatePropagation();
     e.preventDefault();
   });
+  
+  $('.homeLink').click(function(e) {
+    $('.test').hide(500);
+    $('.test').show(500).load('home.html');
+    e.stopImmediatePropagation();
+    e.preventDefault();
+  });
 
 });
