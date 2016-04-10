@@ -7,8 +7,8 @@ $(document).ready(function(){
   });
   
   $('.contactLink').click(function(e) {
-    $('.test').hide(1000);
-    $('.test').show(1000).load('contact.html');
+    $('.test').hide(500);
+    $('.test').show(500).load('contact.html');
     e.stopImmediatePropagation();
     e.preventDefault();
   });
