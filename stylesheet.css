@@ -42,7 +42,7 @@
 }
 
 @font-face {
-    font-family: "oneConstant";
+    font-family: "hapole";
     src: url('hapole_marker.ttf') format("truetype");
 }
 @font-face {
@@ -52,8 +52,8 @@
 .secretcode {
   font-family: 'secretcode', Arial;
 }
-.customfont { 
-    font-family: "oneConstant", Arial;
+.hapole { 
+    font-family: "hapole", Arial;
 }
 
 /* --------------------------- CONTACT PAGE ----------------------------- */
