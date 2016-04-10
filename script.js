@@ -1,7 +1,7 @@
 $(document).ready(function(){
   
   $('#contactButton').hover(function(){
-    $(this).css('background-color', 'rgb(150,150,255)') {
+    $(this).css('background-color', 'rgb(150,150,255)')
       }, function() {
     $(this).css('background-color', 'rgb(100,100,255)')
       }
