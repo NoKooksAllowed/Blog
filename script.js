@@ -1,7 +1,8 @@
 $(document).ready(function(){
-  $('.contactLink').click(function() {
+  $('.contactLink').click(function(e) {
     $('.test').hide(1000);
     $('.test').show(2000).load('contact.html');
-    $('.test').clearQueue();
+    e.stopImmediatePropagation();
+    e.preventDefault();
   });
 });
