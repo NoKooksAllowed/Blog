@@ -65,6 +65,7 @@
 }
 
 #contactButton {
+  margin: 40px;
   background-color: rgb(100,100,255);
   width: 100px;
   height: 30px;
