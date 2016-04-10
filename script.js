@@ -1,7 +1,7 @@
 $(document).ready(function(){
   var status = 'newpage';
   
-  if ( status === newpage ) {
+  if ( status === 'newpage' ) {
     $('.test').load('home.html');
   }
   
