@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.sidebar-content').click(function() {
+  $('contactLink').click(function() {
     $('.test').load('contact.html');
   });
 });
