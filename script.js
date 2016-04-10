@@ -1,8 +1,5 @@
-function load_home(){
-  document.getElementsByClassName("test").innerHTML='<object type="text/html" data="home.html" ></object>';
-}
+document.getElementsByClassName("test").innerHTML='<object type="text/html" data="home.html" ></object>';
 
-load_home();
 
 $(document).ready(function(){
   
