@@ -46,11 +46,11 @@
     src: url('hapole_marker.ttf') format("truetype");
 }
 @font-face {
-    font-family: 'secretcode';
+    font-family: 'secrcode';
     src: url('SECRCODE.TTF') format("truetype");
 }
 .secretcode {
-  font-family: 'secretcode', Arial;
+  font-family: 'secrcode', Arial;
 }
 .hapole { 
     font-family: "hapole", Arial;
