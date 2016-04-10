@@ -1,5 +1,6 @@
 $(document).ready(function(){
-  $('.sidebar-content').hover(function(){
+  
+  $('#contactButton').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)') {
       }, function() {
     $(this).css('background-color', 'rgb(100,100,255)')
