@@ -1,5 +1,6 @@
 $(document).ready(function(){
   $('.contactLink').click(function() {
-    $('.test').hide(3000).load('contact.html').show(3000);
+    $('.test').hide(1000);
+    $('.test').load('contact.html').show(2000);
   });
 });
