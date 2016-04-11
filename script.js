@@ -10,6 +10,9 @@ $(document).ready(function(){
      }).responseText;
     jQuery('.test').html(aa);
   }
+  
+  load_side_ad();
+  
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
       }, function() {
