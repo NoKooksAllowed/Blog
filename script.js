@@ -1,16 +1,13 @@
-var loaded = false
+
 
 $(document).ready(function(){
   $.ajaxPrefilter(function( options, originalOptions, jqXHR ) { 
     options.async = true;
   });
   
-  if (loaded) {
-    return
-  } else {
-  $('.test').load('home.html');
-  loaded = true;
-  }
+  $(function(){
+    $('.test').load('home.html');
+  });
   
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
