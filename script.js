@@ -3,7 +3,9 @@ $(document).ready(function(){
     options.async = true;
   });
   
-  $('.test').load('home.html');
+  $('.test').load('home.html' function(){
+    $(this).off('event');
+  });
   
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
