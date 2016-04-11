@@ -3,7 +3,7 @@
 $(document).ready(function(){
   
   var url = "home.html";
-  $.post(url, function (successData) {
+  $.post(url, {}, function (successData) {
     $(".test").html(successData);
   });
 
