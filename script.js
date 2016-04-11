@@ -3,9 +3,15 @@ $(document).ready(function(){
     options.async = true;
   });
   
+  var loaded = false
+  if (loaded) {
+    return
+  } else {
   $('.test').load('home.html' function(){
     $(this).off('event');
   });
+  loaded = true;
+  }
   
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
