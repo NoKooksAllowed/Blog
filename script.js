@@ -5,9 +5,9 @@ $(document).ready(function(){
     options.async = true;
   });
   
-  $(function(){
-    $('.test').load('home.html');
-  });
+  $('.test').load(function () {
+  console.log("load complete");
+}).attr('src', 'home.html').appendTo('.test');
   
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
