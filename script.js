@@ -12,15 +12,11 @@ $(document).ready(function(){
   
  $('#contactLink').click(function(e) {
     $('.test').hide(500);
-    $('.test').show(500).load('contact.html');
-    e.stopImmediatePropagation();
-    e.preventDefault();
+    $('.test').show(500).html('<object data="contact.html">');
   });
   
   $('#homeLink').click(function(e) {
     $('.test').hide(500);
-    $('.test').show(500).load('home.html');
-    e.stopImmediatePropagation();
-    e.preventDefault();
+    $('.test').show(500).html('<object data="home.html">');
   });
 });
