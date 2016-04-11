@@ -4,7 +4,6 @@ $(document).ready(function(){
   });
   
   $('.test').load('home.html', function(e) {
-    e.stopImmediatePropagation();
     e.preventDefault();
   });
 
