@@ -1,11 +1,10 @@
-
-
-$(document).ready(function(){
-  
   $.get('home.html', function(data) {
     $('.test').html(data);
   });
 
+
+$(document).ready(function(){
+  
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
       }, function() {
