@@ -11,15 +11,9 @@ $(document).ready(function(){
     $(this).css('background-color', 'rgb(100,100,255)')
   });
   
- $('#contactLink').click(function(e) {
-    $.get('contact.html', function(data) {
-      $('.test').html(data);
-    });
+  $('#contactLink').click(function(e) {
   });
   
   $('#homeLink').click(function(e) {
-    $.get('home.html', function(data) {
-      $('.test').html(data);
-    });
   });
 });
