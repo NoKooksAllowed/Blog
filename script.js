@@ -5,7 +5,7 @@ $(document).ready(function(){
     options.async = true;
   });
   
-  $('.test').one('load', 'home.html');
+  $('.test').load('home.html');
   
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
@@ -13,7 +13,7 @@ $(document).ready(function(){
     $(this).css('background-color', 'rgb(100,100,255)')
   });
   
-  $('#contactLink').click(function(e) {
+ /* $('#contactLink').click(function(e) {
     $('.test').hide(500);
     $('.test').show(500).load('contact.html');
     e.stopImmediatePropagation();
@@ -25,5 +25,5 @@ $(document).ready(function(){
     $('.test').show(500).load('home.html');
     e.stopImmediatePropagation();
     e.preventDefault();
-  });
+  }); */
 });
