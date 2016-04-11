@@ -1,10 +1,9 @@
-var status = 'newpage';
-
 $(document).ready(function(){
   
-  if ( status === 'newpage' ) {
-    $('.test').load('home.html');
-  }
+  $('.test').load('home.html', function(e) {
+    e.stopImmediatePropagation();
+    e.preventDefault();
+  });
   
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
