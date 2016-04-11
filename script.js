@@ -6,7 +6,6 @@ $(document).ready(function(){
   });
   $(function(e) {
     $('.test').load('home.html');
-    e.stopImmediatePropagation();
     e.preventDefault();
   });
   $('.hover').hover(function(){
