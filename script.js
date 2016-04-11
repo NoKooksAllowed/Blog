@@ -9,7 +9,7 @@ $(document).ready(function(){
       async: false
      }).responseText;
     jQuery('.test').html(aa);
-  
+  }
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
       }, function() {
