@@ -10,7 +10,6 @@ $(document).ready(function(){
   });
   
   $('#contactLink').click(function(e) {
-    status = 'loaded';
     $('.test').hide(500);
     $('.test').show(500).load('contact.html');
     e.stopImmediatePropagation();
@@ -18,11 +17,9 @@ $(document).ready(function(){
   });
   
   $('#homeLink').click(function(e) {
-    status = 'loaded';
     $('.test').hide(500);
     $('.test').show(500).load('home.html');
     e.stopImmediatePropagation();
     e.preventDefault();
   });
-  
 });
