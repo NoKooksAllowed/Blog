@@ -2,7 +2,10 @@
 
 $(document).ready(function(){
   
-  $('.test').stop().load('home.html');
+  var url = "home.html";
+  $.post(url, function (successData) {
+    $(".test").html(successData);
+  });
 
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
