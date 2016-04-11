@@ -4,6 +4,11 @@ $(document).ready(function(){
   $.ajaxPrefilter(function( options, originalOptions, jqXHR ) { 
     options.async = true;
   });
+  
+  $('.test').load('home.html', {}, function(e) {
+    e.stopImmediatePropagation();
+    e.preventDefault(); 
+  })
 
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
