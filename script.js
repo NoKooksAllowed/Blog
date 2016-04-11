@@ -3,9 +3,8 @@ $(document).ready(function(){
     options.async = true;
   });
   
-  $('.test').load('home.html', function(e) {
-  });
-
+  $('.test').load('home.html');
+  
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
       }, function() {
