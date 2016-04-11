@@ -3,16 +3,11 @@ $(document).ready(function(){
     options.async = true;
   });
   
-  function load_side_ad() {
-    var aa = jQuery.ajax({
-      url: 'home.html',
-      async: false
-     }).responseText;
-    jQuery('.test').html(aa);
-  }
-  
-  load_side_ad();
-  
+  $('.test').load('home.html', function(e) {
+    e.stopImmediatePropagation();
+    e.preventDefault();
+  });
+
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
       }, function() {
