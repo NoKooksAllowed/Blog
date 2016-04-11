@@ -2,8 +2,7 @@
 
 $(document).ready(function(){
   
-  $('.test').load('home.html');
-  console.log('loaded')
+  $('.test').stop().load('home.html');
 
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
