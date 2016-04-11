@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
   
-  $.post('home.html', function(data) {
+  $.get('home.html', function(data) {
     $('.test').html(data);
   });
 
@@ -13,12 +13,12 @@ $(document).ready(function(){
   });
   
  $('#contactLink').click(function(e) {
-    $('.test').hide(500);
-    $('.test').show(500).html('<object data="contact.html">');
+    $.get('contact.html', function(data) {
+    $('.test').html(data);
   });
   
   $('#homeLink').click(function(e) {
-    $('.test').hide(500);
-    $('.test').show(500).html('<object data="home.html">');
+    $.get('home.html', function(data) {
+    $('.test').html(data);
   });
 });
