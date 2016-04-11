@@ -14,11 +14,13 @@ $(document).ready(function(){
   
  $('#contactLink').click(function(e) {
     $.get('contact.html', function(data) {
-    $('.test').html(data);
+      $('.test').html(data);
+    });
   });
   
   $('#homeLink').click(function(e) {
     $.get('home.html', function(data) {
-    $('.test').html(data);
+      $('.test').html(data);
+    });
   });
 });
