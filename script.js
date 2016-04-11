@@ -4,10 +4,7 @@ $(document).ready(function(){
   $.ajaxPrefilter(function( options, originalOptions, jqXHR ) { 
     options.async = true;
   });
-  $(function(e) {
-    $('.test').load('home.html');
-    e.preventDefault();
-  });
+
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
       }, function() {
