@@ -7,9 +7,7 @@ $(document).ready(function(){
   if (loaded) {
     return
   } else {
-  $('.test').load('home.html' function(){
-    $(this).off('event');
-  });
+  $('.test').load('home.html');
   loaded = true;
   }
   
