@@ -2,7 +2,9 @@
 
 $(document).ready(function(){
   
-  $(".test").html('<object data="home.html">');
+  $.get('home.html', function(data) {
+    $('.test').html(data);
+  });
 
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
