@@ -6,7 +6,7 @@ $(document).ready(function(){
   });
   
   $('.test').one('load', function(){
-    $(this).load('home.html');
+    $('.test').load('home.html');
   });
   
   $('.hover').hover(function(){
