@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
   
-  $.get('home.html', function(data) {
+  $.post('home.html', function(data) {
     $('.test').html(data);
   });
 
