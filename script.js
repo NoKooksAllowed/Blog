@@ -1,9 +1,10 @@
+var loaded = false
+
 $(document).ready(function(){
   $.ajaxPrefilter(function( options, originalOptions, jqXHR ) { 
     options.async = true;
   });
   
-  var loaded = false
   if (loaded) {
     return
   } else {
