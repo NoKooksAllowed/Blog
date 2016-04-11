@@ -14,7 +14,7 @@ $(document).ready(function(){
     $(this).css('background-color', 'rgb(100,100,255)')
   });
   
- /* $('#contactLink').click(function(e) {
+ $('#contactLink').click(function(e) {
     $('.test').hide(500);
     $('.test').show(500).load('contact.html');
     e.stopImmediatePropagation();
@@ -26,5 +26,5 @@ $(document).ready(function(){
     $('.test').show(500).load('home.html');
     e.stopImmediatePropagation();
     e.preventDefault();
-  }); */
+  });
 });
