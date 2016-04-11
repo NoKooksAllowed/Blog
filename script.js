@@ -1,9 +1,6 @@
 
 
 $(document).ready(function(){
-  $.ajaxPrefilter(function( options, originalOptions, jqXHR ) { 
-    options.async = true;
-  });
   
   $('.test').load('home.html');
   console.log('loaded')
