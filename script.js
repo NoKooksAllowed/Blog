@@ -6,6 +6,7 @@ $(document).ready(function(){
   });
   
   $('.test').load('home.html');
+  console.log('loaded')
 
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(150,150,255)')
