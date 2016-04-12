@@ -44,11 +44,11 @@
 
 @font-face {
     font-family: "hapole";
-    src: url('hapole_marker.ttf') format("truetype");
+    src: url('Fonts/hapole_marker.ttf') format("truetype");
 }
 @font-face {
     font-family: 'lacuna';
-    src: url('LACURG__.TTF') format("truetype");
+    src: url('Fonts/LACURG__.TTF') format("truetype");
 }
 .lacuna {
   font-family: 'lacuna', Arial;
