@@ -1,10 +1,6 @@
 $(document).ready(function(){
   $('.test').load('home.html');
   
-  $(function() {
-    $( "#accordion" ).accordion();
-  });
-  
   $('#homeLink').click(function(){
     $('.test').hide(100);
     $('.test').show(100).load('home.html');
