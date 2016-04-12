@@ -84,7 +84,7 @@
     list-style: none;
     width: 170px;
 }
-#accordion div {
+.menuItem {
     display: block;
     background-color: #FF9927;
     height: 50px;
