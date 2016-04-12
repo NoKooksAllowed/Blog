@@ -43,6 +43,7 @@
   padding: 15px;
   color: white;
   cursor: pointer;
+  text-shadow: 1px 1px 1px black;
 }
 
 @media (max-width:767px) {
