@@ -14,7 +14,18 @@ $(document).ready(function(){
   
   $('#venuesLink').click(function(){
     $('.test').hide(300);
-    $('.test').show(300).load('venues.html');
+    $('.test').show(300).load('venues.html', function(){
+      $("#accordion > li > div").click(function(){
+        console.log('hey');
+      if(false == $(this).next().is(':visible')) {
+        $('#accordion ul').slideUp(300);
+      }
+        $(this).next().slideToggle(300);
+    });
+ 
+    $('#accordion ul:eq(0)').show();
+      
+    });
   });
   
   $('.hover').hover(function(){
@@ -24,13 +35,4 @@ $(document).ready(function(){
   });
   
   //accordion
-  $("#accordion > li > div").click(function(){
-    console.log('hey');
-    if(false == $(this).next().is(':visible')) {
-        $('#accordion ul').slideUp(300);
-    }
-    $(this).next().slideToggle(300);
-});
- 
-$('#accordion ul:eq(0)').show();
 });
