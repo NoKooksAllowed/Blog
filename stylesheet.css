@@ -4,7 +4,7 @@
 }
 #topNav {
   position: fixed;
-  background-color: blue;
+  background-color: rgb(100,100,255);
   height: 40px;
   width: 100vw;
   z-index: 999;
