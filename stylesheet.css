@@ -57,6 +57,13 @@
     font-family: "hapole", Arial;
 }
 
+/* ----------------------------- HOME PAGE ------------------------------ */
+
+#homeTitle {
+  margin-top: 100px;
+  font-size: 18px;
+}
+
 /* --------------------------- CONTACT PAGE ----------------------------- */
 
 .contact {
