@@ -43,6 +43,10 @@
   cursor: pointer;
 }
 
+.purple {
+  background-color: rgb(100,100,255);
+}
+
 @media (max-width:767px) {
 
     #wrapper {
