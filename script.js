@@ -11,6 +11,11 @@ $(document).ready(function(){
     $('.test').show(300).load('contact.html');
   });
   
+  $('#venuesLink').click(function(){
+    $('.test').hide(300);
+    $('.test').show(300).load('venues.html');
+  });
+  
   $('.hover').hover(function(){
     $(this).css('background-color', 'rgb(130,130,255)')
   }, function() {
