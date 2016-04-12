@@ -86,7 +86,7 @@
 }
 #accordion div {
     display: block;
-    background-color: #FF9927;
+    background-color: rgb(100, 255, 100);
     height: 50px;
     width: 20vw;
     font-weight: bold;
@@ -104,10 +104,4 @@
     cursor: auto;
     background-color: #fff;
     padding: 5px;
-}
-#accordion a {
-    text-decoration: none;
-}
-#accordion a:hover {
-    text-decoration: underline;
 }
