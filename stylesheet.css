@@ -47,7 +47,7 @@
   cursor: pointer;
   font-weight: bold;
   z-index: 1010;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 1px 1px black;
 }
 
 @media (max-width:767px) {
