@@ -2,11 +2,13 @@ $(document).ready(function(){
   $('.test').load('home.html');
   
   $('#homeLink').click(function(){
-    $('.test').load('home.html');
+    $('.test').hide(100);
+    $('.test').show(100).load('home.html');
   });
   
   $('#contactLink').click(function(){
-    $('.test').load('contact.html');
+    $('.test').hide(100);
+    $('.test').show(100).load('contact.html');
   });
   
   $('.hover').hover(function(){
