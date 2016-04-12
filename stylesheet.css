@@ -89,11 +89,8 @@
     background-color: #FF9927;
     height: 50px;
     font-weight: bold;
-    margin: 1px;
+    margin: 2px;
     cursor: pointer;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
 }
 #accordion ul {
     list-style: none;
