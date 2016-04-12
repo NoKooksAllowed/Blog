@@ -98,7 +98,8 @@
     padding: 0 0 0 0;
     display: none;
 }
-#accordion ul li {
+#accordion ul p {
+    width: 75vw;
     font-weight: normal;
     cursor: auto;
     background-color: #fff;
