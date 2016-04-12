@@ -3,6 +3,7 @@
   font-size: 50px;
 }
 #topNav {
+  position: fixed;
   background-color: blue;
   height: 40px;
   width: 100vw;
