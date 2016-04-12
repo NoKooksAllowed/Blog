@@ -88,6 +88,7 @@
     display: block;
     background-color: #FF9927;
     height: 50px;
+    width: 50vw;
     font-weight: bold;
     margin: 2px;
     cursor: pointer;
@@ -95,8 +96,6 @@
 #accordion ul {
     list-style: none;
     padding: 0 0 0 0;
-}
-#accordion ul{
     display: none;
 }
 #accordion ul li {
