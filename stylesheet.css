@@ -2,7 +2,7 @@
   color: white;
   margin-top: 30px;
   font-size: 50px;
-  text-shadow: 2px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
 }
 #topNav {
   position: fixed;
@@ -43,7 +43,7 @@
   padding: 15px;
   color: white;
   cursor: pointer;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
 }
 
 @media (max-width:767px) {
