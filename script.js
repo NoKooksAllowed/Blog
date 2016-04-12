@@ -25,7 +25,7 @@ $(document).ready(function(){
   
   //accordion
   $("#accordion > li > div").click(function(){
- 
+    console.log('hey');
     if(false == $(this).next().is(':visible')) {
         $('#accordion ul').slideUp(300);
     }
