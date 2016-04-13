@@ -70,9 +70,12 @@ body {
 }
 
 .aotwText {
+  background-color: blue;
+  padding: 10px;
   margin-bottom: 50px;
   margin-left: 200px;
   transform: rotate(270deg);
+  z-index: 900;
 }
 
 @media (max-width:767px) {
