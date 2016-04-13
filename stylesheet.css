@@ -22,7 +22,7 @@
   left: 250px;
   width: 250px;
   background: url('waves1.jpg');
-  background-size: 100vh;
+  background-size: 100%;
   position: fixed;
   height: 100%;
   z-index: 1000;
