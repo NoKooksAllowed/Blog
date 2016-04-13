@@ -33,7 +33,7 @@ $(document).ready(function(){
   });
   
   $('.hover').hover(function(){
-    $(this).css('background-color', 'rgb(100,255,130)')
+    $(this).css('background-color', 'rgb(100,255,200)')
   }, function() {
     $(this).css('background-color', '')
   });
