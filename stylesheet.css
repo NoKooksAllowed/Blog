@@ -71,7 +71,7 @@ body {
 
 .aotwText {
   background-color: blue;
-  transform: rotate(270deg);
+  
   z-index: 900;
 }
 
