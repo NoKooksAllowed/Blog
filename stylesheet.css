@@ -12,7 +12,7 @@ body {
   text-shadow: 0px 3px 1px black;
 }
 .shadow {
-  text-shadow: 0px 2px 0px black;
+  text-shadow: 2px 1px 1px black;
 }
 #topNav {
   position: fixed;
