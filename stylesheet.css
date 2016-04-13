@@ -34,7 +34,7 @@ body {
   height: 100%;
   z-index: 1000;
   transition: all 0.4s ease 0s;
-  box-shadow: 1px 1px 1px black;
+  box-shadow: 0px 1px 1px black;
 }
 
 #page-content-wrapper {
