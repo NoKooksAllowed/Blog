@@ -11,6 +11,9 @@ body {
   font-size: 50px;
   text-shadow: 0px 3px 1px black;
 }
+.shadow {
+  text-shadow: 0px 3px 1px black;
+}
 #topNav {
   position: fixed;
   background: url(https://pixabay.com/static/uploads/photo/2016/03/03/17/25/wood-1234667_960_720.jpg);
@@ -64,7 +67,6 @@ body {
 #artistOfTheWeek {
   margin-top: 2px;
   width: 225px;
-  
 }
 
 @media (max-width:767px) {
