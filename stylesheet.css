@@ -71,7 +71,7 @@ body {
 
 .aotwText {
   margin-left: 180px;
-  transform: rotate(180deg);
+  transform: rotate(270deg);
 }
 
 @media (max-width:767px) {
