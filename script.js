@@ -11,7 +11,7 @@ $(document).ready(function(){
     $('.test').hide(300);
     $('.test').show(300).load('contact.html', function(){
       $('.hover').hover(function(){
-        $(this).addClass('background-color', 'rgb(100,255,130)')
+        $(this).addClass('background-color', 'rgb(100,255,160)')
       }, function() {
         $(this).css('background-color', '')
        });
